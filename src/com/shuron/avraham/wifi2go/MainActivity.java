@@ -1,10 +1,13 @@
 package com.shuron.avraham.wifi2go;
 
-import android.os.Bundle;
+import java.util.List;
+
 import android.app.Activity;
+import android.os.Bundle;
+import android.preference.PreferenceActivity;
 import android.view.Menu;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,5 +22,16 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
+    
+    /**
+     * Populate the activity with the top-level headers.
+     */
+    
+    /*
+    @Override
+    public void onBuildHeaders(List<Header> target) {
+        loadHeadersFromResource(R.xml.preference_headers, target);
+    }
+    */
     
 }
