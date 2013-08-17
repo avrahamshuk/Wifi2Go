@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_enable_auto_login"
+            android:title="@string/enable_auto_login" />
+    
+    <PreferenceCategory
+        android:key="@string/pref_key_supported_networks"
+        android:title="@string/supported_networks_title" >
+        
+        <SwitchPreference
+            android:defaultValue="true"
+            android:dependency="@string/pref_key_enable_auto_login"
+            android:key="@string/pref_key_egged_auto_login"
+            android:title="@string/egged_ssid" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:dependency="@string/pref_key_enable_auto_login"
+            android:key="@string/pref_key_israel_railways_auto_login"
+            android:title="@string/israel_railways_ssid" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

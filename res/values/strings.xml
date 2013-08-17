@@ -10,7 +10,12 @@
     <string name="logging_in_to_israel_railways">Logging in to Israel Railways</string>
     <string name="login_failed">Login failed</string>
     <string name="login_succeeded">Login Succeeded</string>
-    <string name="login_succeeded_message">You are now logged in. Go and watch porn!</string>
-    <string name="login_failed_message">An error occured. Use your browser to log in</string>
+    <string name="login_succeeded_message">You are now logged in</string>
+    <string name="login_failed_message">An error occurred. Use your browser to log in</string>
+    <string name="enable_auto_login">Enable Auto Login</string>
+    <string name="supported_networks_title">Networks</string>
+    <string name="egged_ssid">Egged.co.il</string>
+    <string name="israel_railways_ssid">IsraelRailways</string>
+    <string name="action_about">About</string>
 
 </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_key_enable_auto_login">enable_auto_login</string>
+    <string name="pref_key_supported_networks">pref_key_login_settings</string>
+    <string name="pref_key_egged_auto_login">pref_key_egged_auto_login</string>
+    <string name="pref_key_israel_railways_auto_login">pref_key_israel_railways_auto_login</string>
+
+</resources>
